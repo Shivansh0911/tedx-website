@@ -22,10 +22,10 @@ const Footer = () => {
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-tedx-red transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-tedx-red transition-colors">
+              <a href="https://www.instagram.com/tedxbitshyderabad/?hl=en" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-tedx-red transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-tedx-red transition-colors">
+              <a href="https://www.linkedin.com/company/tedxbitshyderabad" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-tedx-red transition-colors">
                 <Linkedin size={20} />
               </a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-tedx-red transition-colors">
@@ -38,11 +38,12 @@ const Footer = () => {
           <div>
             <h3 className="font-montserrat font-bold text-white text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-400 hover:text-tedx-red transition-colors">Home</Link></li>
+              <li><a href="/" className="text-gray-400 hover:text-tedx-red transition-colors">Home</a></li>
               <li><Link to="/speakers" className="text-gray-400 hover:text-tedx-red transition-colors">Speakers</Link></li>
               <li><Link to="/sponsors" className="text-gray-400 hover:text-tedx-red transition-colors">Sponsors</Link></li>
               <li><Link to="/executives" className="text-gray-400 hover:text-tedx-red transition-colors">Executives</Link></li>
               <li><Link to="/gallery" className="text-gray-400 hover:text-tedx-red transition-colors">Gallery</Link></li>
+              <li><Link to="/get-involved" className="text-gray-400 hover:text-tedx-red transition-colors">Get Involved</Link></li>
             </ul>
           </div>
 

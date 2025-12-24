@@ -56,7 +56,7 @@ const Navbar = () => {
             </NavLink>
           ))}
           <a 
-            href="#tickets" 
+            href="/tickets" 
             className="btn-3d"
           >
             Get Tickets
@@ -100,7 +100,7 @@ const Navbar = () => {
                   </NavLink>
                 ))}
                 <a 
-                  href="#tickets" 
+                  href="/tickets" 
                   className="btn-3d w-full text-center"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >

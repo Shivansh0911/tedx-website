@@ -67,14 +67,14 @@ const AboutSection = () => {
             </div>
             
             <div className="mt-12 text-center">
-              <motion.a 
-                href="/tlog"
-                className="btn-3d inline-block"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Explore Our Journey
-              </motion.a>
+                <motion.a 
+                  href="/journey"
+                  className="btn-3d inline-block"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Explore Our Journey
+                </motion.a>
             </div>
           </motion.div>
         </div>

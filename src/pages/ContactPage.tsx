@@ -219,10 +219,10 @@ const ContactPage: React.FC = () => {
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-tedx-gray/50 rounded-full hover:bg-tedx-red/80 transition-colors">
                       <Twitter />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-tedx-gray/50 rounded-full hover:bg-tedx-red/80 transition-colors">
+                    <a href="https://instagram.com/tedxbitshyderabad" target="_blank" rel="noopener noreferrer" className="p-3 bg-tedx-gray/50 rounded-full hover:bg-tedx-red/80 transition-colors">
                       <Instagram />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-tedx-gray/50 rounded-full hover:bg-tedx-red/80 transition-colors">
+                    <a href="https://www.linkedin.com/company/tedxbitshyderabad" target="_blank" rel="noopener noreferrer" className="p-3 bg-tedx-gray/50 rounded-full hover:bg-tedx-red/80 transition-colors">
                       <Linkedin />
                     </a>
                     <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-tedx-gray/50 rounded-full hover:bg-tedx-red/80 transition-colors">

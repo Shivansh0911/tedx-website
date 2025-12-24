@@ -87,9 +87,9 @@ const GalleryPage: React.FC = () => {
 
   const years = Array.from(new Set(galleryData.map(item => item.year))).sort((a, b) => b - a);
   
-  const filteredGallery = selectedYear 
+  const filteredGallery = (selectedYear 
     ? galleryData.filter(item => item.year === selectedYear)
-    : galleryData;
+    : galleryData).sort((a, b) => b.year - a.year);
 
   const openLightbox = (index: number) => {
     const filteredIndex = filteredGallery.findIndex(item => item.id === filteredGallery[index].id);
